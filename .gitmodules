@@ -1,0 +1,3 @@
+[submodule "Aqua/vendor/spdlog"]
+	path = Aqua/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
