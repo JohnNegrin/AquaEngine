@@ -1,42 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Aqua">
+      <UniqueIdentifier>{4DA4827C-39DB-830D-E2C7-6910CEDDFF0E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Aqua\Events">
+      <UniqueIdentifier>{91D7E41D-FD8C-5D13-8681-57EAF2355417}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Aqua\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Aqua.h" />
     <ClInclude Include="src\Aqua\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Aqua</Filter>
     </ClInclude>
-    <ClInclude Include="src\Aqua.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\Aqua\Core.h">
+      <Filter>Aqua</Filter>
     </ClInclude>
     <ClInclude Include="src\Aqua\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>Aqua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aqua\Events\ApplicationEvent.h">
+      <Filter>Aqua\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aqua\Events\Event.h">
+      <Filter>Aqua\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aqua\Events\KeyEvent.h">
+      <Filter>Aqua\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aqua\Events\MouseEvent.h">
+      <Filter>Aqua\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Aqua\Log.h">
-      <Filter>Header Files</Filter>
+      <Filter>Aqua</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Aqua\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Aqua</Filter>
     </ClCompile>
     <ClCompile Include="src\Aqua\Log.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Aqua</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
